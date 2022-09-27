@@ -1,0 +1,35 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(
+    circle,
+    rgba(221, 174, 194, 0.8154433648459384) 0%,
+    rgba(181, 201, 229, 1) 80%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+h1 {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 62px;
+  line-height: 56px;
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 20px;
+  color: #57595e;
+  font-weight: 200;
+  font-size: small;
+}
+p a {
+  color: #844c73;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #3b4048;
+}
